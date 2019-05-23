@@ -35,5 +35,5 @@ function createTree(container, obj) {
   container.appendChild(createTreeNode(obj));
 }
 
-let container = document.getElementById('container');
+const container = document.getElementById('container');
 createTree(container, data);
